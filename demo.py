@@ -1,6 +1,7 @@
 from nltk.corpus import wordnet as wn
 import sentiwordnet
 import wndomains
+import geowordnet
 
 
 def main():
@@ -10,7 +11,11 @@ def main():
 
     # Access eXtended WordNet Domains (XWND)
     book = wn.synset('book.n.01')
-    print "Top 5 domains for :", book, " -> ", book.domains()[:5]
+    print "Top 5 domains for:", book, " -> ", book.domains()[:5]
+
+    # Access GeoWordnet Corpus
+    washington = wn.synset('washington.n.01')
+    print "Geo info for: ", washington, " -> ", washington.geo(), "[", washington.definition, "]"
 
 if __name__ == "__main__":
     main()
