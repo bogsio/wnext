@@ -1,0 +1,32 @@
+09170475 : Kara Kum  (Turkmenistan , Asia)  : desert
+09170475 : Qara Qum  (Turkmenistan , Asia)  : desert
+08701161 : Cappadocia  (Asia Minor , Asia)  : geographical_area -> 6538844 : Cappadocia (Abruzzo , Italy) @ 42.006526, 13.279993 ... ADM3
+08919949 : Carthage  (Phoenicia , )  : city_state -> 4420798 : Carthage (Mississippi , United States) @ 31.5265557, -91.4459501 ... PPL
+08519624 : Caucasia  ( , )  : geographical_area -> 3687025 : Caucasia (Antioquia , Colombia) @ 7.9869444, -75.1972222 ... PPL
+08783444 : Doris  (Greece , Europe)  : region -> 1547044 : Pointe du Canot ( , French Southern Territories) @ -48.6833333, 69.5166667 ... PT
+08563180 : East  (United States , North America)  : geographical_area -> 5116041 : East River (New York , United States) @ 40.7870456, -73.917637 ... CHN
+08795974 : Gomorrah  (Israel , Middle East)  : city -> 4937904 : Gomorrah (Massachusetts , United States) @ 42.0514811, -73.2865034 ... PPL
+09331654 : Ilmen  (Russia , Eurasia)  : lake -> 557028 : Il'men' (Volgograd , Russia) @ 50.8333333, 44.4 ... PPL
+09319456 : Isle  ( , )  : island -> 2729856 : Lusholmen ( , Svalbard and Jan Mayen) @ 80.05, 16.1666667 ... ISL
+09338453 : Lethe  (Hell , )  : river -> 2878474 : Lethe (Lower Saxony , Germany) @ 53.1, 8.2 ... STM
+08915159 : Levant  (Middle East , )  : geographical_area -> 2792465 : Levant ( , Belgium) @ 50.633333, 4.416667 ... FRM
+09357080 : Moho  ( , )  : boundary -> 2417513 : Moho ((GV24) , Guinea) @ 7.6830556, -8.4919444 ... STM
+09052652 : North  (United States , North America)  : geographical_area -> 4589360 : North (South Carolina , United States) @ 33.6157083, -81.1020414 ... PPL
+08682575 : Occident  ( , )  : region -> 2180172 : Waimate West County ( , New Zealand) @ -39.5, 174.0833333 ... ADMD
+09384532 : Pangaea  ( , )  : continent -> 1632778 : Pangia (South Sulawesi , Indonesia) @ -5.056, 119.7292 ... PPL
+09449773 : River Styx  (Hell , )  : river -> 936213 : Styx ( , French Southern Territories) @ -46.4666667, 51.7833333 ... STM
+09177647 : Scythia  (Eurasia , eastern hemisphere)  : geographical_area -> 4307858 : Scythia (Kentucky , United States) @ 37.8219963, -86.9052698 ... PPL
+09434345 : Sierra  ( , )  : range -> 6632420 : DuFief, Sierra ( , Antarctica) @ -64.8666667, -63.4666667 ... MTS
+09050730 : South  (United States , North America)  : geographical_area -> 4308951 : South (Kentucky , United States) @ 37.3292167, -86.3646994 ... PPL
+08563478 : Southeast  (East , United States)  : geographical_area -> 4140541 : Southeast (Washington, D.C. , United States) @ 38.8806677, -76.9899756 ... PPL
+08563627 : Southwest  (West , United States)  : geographical_area -> 4140551 : Southwest (Washington, D.C. , United States) @ 38.8812232, -77.0163652 ... PPL
+08657748 : Strand  (West End , London)  : street -> 2729170 : Raudstranda ( , Svalbard and Jan Mayen) @ 79.8666667, 13.5833333 ... BCH
+08954269 : Thule  ( , )  : geographical_area -> 949022 : Thule (KwaZulu Natal , South Africa) @ -29.95, 29.1333333 ... FRM
+09170475 : Turkestan Desert  (Turkmenistan , Asia)  : desert -> 1529001 : Yuli (Xinjiang , China) @ 41.3305556, 86.2577778 ... PPL
+08920207 : Utica  (Phoenicia , )  : city -> 5051166 : Utica (Minnesota , United States) @ 43.9755184, -91.9548787 ... PPL
+08682819 : West  (United States , North America)  : geographical_area -> 4826742 : West (West Virginia , United States) @ 39.6784134, -80.6698117 ... PPL
+08489392 : Zulu  ( , )  : community -> 4099006 : Zulu (Alabama , United States) @ 32.9348463, -87.1461069 ... PPL
+
+
+
+
