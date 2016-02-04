@@ -34,7 +34,7 @@ Extensions
 * GeoWordNet is a semantic resource built from the full integration of WordNet, GeoNames and the Italian part of MultiWordNet. [GeoWordnet Website](http://geowordnet.semanticmatching.org/ "Geown")
 
 
-Licence
+License
 =======
 SentiWordNet is distributed under the [Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license](http://creativecommons.org/licenses/by-sa/3.0/ "ASA3.0") .
 
