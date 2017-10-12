@@ -1,3 +1,4 @@
+from __future__ import print_function
 from nltk.corpus import wordnet as wn
 from nltk.corpus.reader.wordnet import Synset
 from collections import defaultdict
@@ -20,7 +21,7 @@ class SentiWordnetCorpusReader:
                 self.__class__.RESOURCES_FOLDER,
                 self.__class__.SENTIWORDNET_FILE)
 
-        with open(abspath, 'rb') as swnf:
+        with open(abspath, 'r') as swnf:
             for line in swnf:
                 if not line or line.startswith('#'):
                     continue
@@ -49,17 +50,15 @@ def sentiwordnet_sentiment(self):
     if not hasattr(self.__class__, 'sentiwordnet_reader'):
         self.__class__.sentiwordnet_reader = SentiWordnetCorpusReader()
 
-    return self.__class__.sentiwordnet_reader.synset(self.offset, self.pos)
+    return self.__class__.sentiwordnet_reader.synset(self.offset(), self.pos())
 
 # Decorate the Synset class with sentiment values from SentiWordnet
 Synset.sentiment = sentiwordnet_sentiment
 
 
-
-
 if __name__ == "__main__":
     able = wn.synset('able.a.01')
-    print able.sentiment()
+    print(able.sentiment())
 
     dog = wn.synset('dog.n.01')
-    print dog.sentiment()
+    print(dog.sentiment())

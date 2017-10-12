@@ -1,3 +1,4 @@
+from __future__ import print_function
 from nltk.corpus import wordnet as wn
 from nltk.corpus.reader.wordnet import Synset
 from collections import defaultdict
@@ -27,7 +28,7 @@ class WNDomainsReader:
         for idx, filename in enumerate(domain_files):
             domain_name, _ = filename.split('.')
 
-            with open(os.path.join(abspath, filename), 'rb') as df:
+            with open(os.path.join(abspath, filename), 'r') as df:
                 for line in df:
                     synset_idx, relevancy = line.split()
                     relevancy = float(relevancy)
@@ -56,7 +57,7 @@ def wordnetextensions_domains(self):
     if not hasattr(self.__class__, 'wndomains_reader'):
         self.__class__.wndomains_reader = WNDomainsReader()
 
-    return self.__class__.wndomains_reader.synset(self.offset, self.pos)
+    return self.__class__.wndomains_reader.synset(self.offset(), self.pos())
 
 # Decorate the Synset class with sentiment values from SentiWordnet
 Synset.domains = wordnetextensions_domains
@@ -64,10 +65,10 @@ Synset.domains = wordnetextensions_domains
 
 if __name__ == "__main__":
     submarine = wn.synset('submarine.n.01')
-    print 'TOP DOMAINS for submarine: ', submarine.domains()[:5], '\n'
+    print('TOP DOMAINS for submarine: ', submarine.domains()[:5], '\n')
 
     book = wn.synset('book.n.01')
-    print 'TOP DOMAINS for book: ', book.domains()[:5], '\n'
+    print('TOP DOMAINS for book: ', book.domains()[:5], '\n')
 
     algorithm = wn.synset('algorithm.n.01')
-    print 'TOP DOMAINS for algorithm: ', algorithm.domains()[:5], '\n'
+    print('TOP DOMAINS for algorithm: ', algorithm.domains()[:5], '\n')

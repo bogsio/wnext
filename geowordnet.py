@@ -20,7 +20,7 @@ class GeoWordnetCorpusReader:
                                    self.__class__.RESOURCES_FOLDER,
                                    self.__class__.GEOWORDNET_FILE)
 
-        with open(abspath, 'rb') as gwnf:
+        with open(abspath, 'r') as gwnf:
             for line in gwnf:
                 if not line or line.startswith('#'):
                     continue
@@ -50,7 +50,7 @@ def geowordnet_localize(self):
     if not hasattr(self.__class__, 'geowordnet_reader'):
         self.__class__.geowordnet_reader = GeoWordnetCorpusReader()
 
-    return self.__class__.geowordnet_reader.synset(self.offset)
+    return self.__class__.geowordnet_reader.synset(self.offset())
 
 # Decorate the Synset class with localization data from GeoWordnet
 Synset.geo = geowordnet_localize
